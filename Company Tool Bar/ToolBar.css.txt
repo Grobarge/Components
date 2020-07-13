@@ -1,0 +1,73 @@
+.RestaurantToolContainer {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    width: 263px;
+    height: 100%;
+    padding: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.button-group{
+    width: 100%;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant-image {
+    height: 4vh;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button-image {
+    height: 3vh;
+    margin-right: 2vw;
+    
+
+}
+
+button {
+    background-color: white;
+    width: 100%;
+    font-size: large;
+    border: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #EAF1FB;
+    color: #4D87B2;
+}
+
+
+
+
+
+
+.status {
+    border-top: 5px solid #8080803d;
+    display: flex;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
